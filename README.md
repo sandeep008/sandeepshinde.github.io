@@ -7,5 +7,5 @@
 - 📊 Databricks, PySpark and ETL pipelines
 - 🎓 Teaching a weekend workshop: build a full stack React app and deploy it on AWS
 
-🌐 Portfolio: https://sandeep008.github.io
-🎓 Workshop: https://sandeep008.github.io/workshop/
+🌐 Portfolio: https://sandeep008.github.io/sandeepshinde.github.io/
+🎓 Workshop: https://sandeep008.github.io/sandeepshinde.github.io/workshop/
