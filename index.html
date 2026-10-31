@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Sandeep Shinde | Lead Software Engineer</title>
+<meta name="description" content="Lead Software Engineer in Pune with 11+ years building enterprise apps with .NET, Java, React and AWS.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@600;800&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0A1311;--card:rgba(255,255,255,.045);--ink:#E9F4EF;--mute:#9DB5AB;--line:rgba(255,255,255,.13);--a:#2EE6A6;--b:#5B8CFF;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:light){:root:not([data-theme="dark"]){--bg:#F5F8F7;--card:#fff;--ink:#0F1F1A;--mute:#4B6259;--line:rgba(15,31,26,.14);--a:#0E9F6E;--b:#3A63D8}}
+html{scroll-behavior:smooth;scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 17px/1.65 Inter,system-ui,sans-serif;overflow-x:hidden}
+h1,h2,h3{font-family:Sora,Inter,sans-serif;margin:0;line-height:1.12}
+a{color:inherit}:focus-visible{outline:3px solid var(--a);outline-offset:3px}
+.wrap{max-width:980px;margin:0 auto;padding:0 22px;position:relative}
+nav{position:sticky;top:0;z-index:5;backdrop-filter:blur(10px);background:color-mix(in srgb,var(--bg) 80%,transparent);border-bottom:1px solid var(--line);padding-top:env(safe-area-inset-top,0px)}
+nav .wrap{display:flex;gap:22px;align-items:center;padding-top:12px;padding-bottom:12px;overflow-x:auto}
+nav b{font-family:Sora,sans-serif;margin-right:auto;white-space:nowrap}
+nav a{text-decoration:none;color:var(--mute);white-space:nowrap}nav a:hover{color:var(--a)}
+.hero{position:relative;padding:84px 0 60px;overflow:hidden}
+.glow{position:absolute;width:480px;height:480px;border-radius:50%;filter:blur(90px);opacity:.3;background:radial-gradient(circle,var(--a),var(--b));top:-160px;right:-120px;pointer-events:none}
+.hero h1{font-size:clamp(2.6rem,8vw,5rem);font-weight:800;letter-spacing:-.03em}
+.role{font:600 1.35rem Sora,sans-serif;margin:14px 0 18px;min-height:1.6em;background:linear-gradient(90deg,var(--a),var(--b));-webkit-background-clip:text;background-clip:text;color:transparent}
+.cur{display:inline-block;width:3px;height:1em;background:var(--a);margin-left:3px;vertical-align:-3px;animation:bl 1s steps(2) infinite}
+@keyframes bl{50%{opacity:0}}
+.hero p{max-width:60ch;color:var(--mute);font-size:1.08rem}
+.btns{display:flex;flex-wrap:wrap;gap:12px;margin-top:26px}
+.btn{padding:12px 24px;border-radius:999px;text-decoration:none;font-weight:500;border:1px solid var(--line);transition:transform .2s,border-color .2s}
+.btn.p{background:linear-gradient(100deg,var(--a),var(--b));color:#04140F;border:0}
+.btn:hover{transform:translateY(-3px)}
+.facts{display:flex;flex-wrap:wrap;gap:10px 30px;margin-top:34px}
+.facts b{display:block;font:800 1.9rem Sora,sans-serif}.facts span{color:var(--mute);font-size:.9rem}
+section{padding:58px 0}
+h2{font-size:clamp(1.7rem,4vw,2.3rem);margin-bottom:26px}
+.tl{position:relative;margin:0;padding:0 0 0 26px;list-style:none;border-left:2px solid var(--line)}
+.tl li{position:relative;margin-bottom:28px}
+.tl li::before{content:"";position:absolute;left:-34px;top:8px;width:14px;height:14px;border-radius:50%;background:var(--bg);border:3px solid var(--a)}
+.tl h3{font-size:1.2rem}.tl .when{color:var(--a);font-size:.92rem;margin:2px 0 8px}
+.tl ul{margin:0;padding-left:18px;color:var(--mute)}.tl li li{margin:0 0 4px;position:static}.tl li li::before{display:none}
+.skills{display:grid;gap:18px;grid-template-columns:repeat(auto-fit,minmax(250px,1fr))}
+.card{position:relative;background:var(--card);border:1px solid var(--line);border-radius:16px;padding:22px;overflow:hidden;transition:transform .25s}
+.card::before{content:"";position:absolute;inset:0;background:radial-gradient(240px circle at var(--mx,50%) var(--my,0%),color-mix(in srgb,var(--a) 22%,transparent),transparent 70%);opacity:0;transition:opacity .25s}
+.card:hover{transform:translateY(-5px)}.card:hover::before{opacity:1}.card>*{position:relative}
+.card h3{font-size:1.05rem;margin-bottom:10px}
+.chips{display:flex;flex-wrap:wrap;gap:8px}.chips span{border:1px solid var(--line);border-radius:999px;padding:3px 12px;font-size:.88rem;color:var(--mute)}
+.two{display:grid;gap:18px;grid-template-columns:repeat(auto-fit,minmax(280px,1fr))}
+.card p{margin:0;color:var(--mute)}
+.promo{border-radius:22px;padding:40px 24px;border:1px solid var(--line);background:linear-gradient(135deg,color-mix(in srgb,var(--a) 18%,transparent),color-mix(in srgb,var(--b) 18%,transparent))}
+.promo p{color:var(--mute);max-width:56ch}
+footer{padding:34px 0;text-align:center;color:var(--mute);font-size:.9rem}
+.rv{opacity:0;transform:translateY(22px);transition:opacity .7s,transform .7s}.rv.in{opacity:1;transform:none}
+@media (prefers-reduced-motion:no-preference){.glow{animation:fl 12s ease-in-out infinite alternate}}
+@keyframes fl{to{transform:translate(-50px,60px) scale(1.15)}}
+@media (prefers-reduced-motion:reduce){.rv{opacity:1;transform:none}.cur{animation:none}}
+</style>
+</head>
+<body>
+<nav><div class="wrap"><b>Sandeep Shinde</b><a href="#experience">Experience</a><a href="#skills">Skills</a><a href="#workshop">Workshop</a><a href="#contact">Contact</a></div></nav>
+<header class="hero">
+  <div class="glow"></div>
+  <div class="wrap">
+    <h1>Sandeep Shinde</h1>
+    <div class="role"><span id="role"></span><span class="cur"></span></div>
+    <p>Lead Software Engineer in Pune with 11+ years of experience building scalable, secure enterprise applications across .NET, Java, React and AWS. I simplify complex architecture, drive cloud-native modernization and lead cross-functional teams to predictable delivery.</p>
+    <div class="btns"><a class="btn p" href="#contact">Get in touch</a><a class="btn" href="https://github.com/sandeep008">GitHub</a><a class="btn" href="workshop/">React + AWS workshop</a></div>
+    <div class="facts"><div><b>11+</b><span>years of experience</span></div><div><b>6</b><span>companies</span></div><div><b>AWS</b><span>Solutions Architect Associate</span></div></div>
+  </div>
+</header>
+
+<section id="experience"><div class="wrap rv">
+  <h2>Experience</h2>
+  <ul class="tl">
+    <li><h3>Lead Software Engineer, John Deere</h3><div class="when">Feb 2023 to present</div><ul>
+      <li>Designed and delivered manufacturing applications with .NET 8, WPF, React, TypeScript and Python.</li>
+      <li>Introduced microservices and micro-frontend architecture for scalability and faster deployments.</li>
+      <li>Built secure AWS solutions on EC2, S3, RDS, Lambda and VPC.</li>
+      <li>Created CI/CD pipelines with GitHub Actions and Terraform for automated build, test and release.</li>
+      <li>Developed Databricks ETL pipelines integrating PostgreSQL workloads for analytics and reporting.</li>
+      <li>Customized Windchill PDMLink and Creo integrations to streamline PLM workflows.</li></ul></li>
+    <li><h3>Senior Software Engineer, Honeywell</h3><div class="when">Jun 2019 to Feb 2023</div><ul>
+      <li>Developed modules in .NET and WPF following clean architecture principles.</li>
+      <li>Integrated RabbitMQ, XML workflows and custom communication layers for near real-time sync.</li>
+      <li>Worked with architects on technical specifications and solution blueprints, and improved performance by removing bottlenecks.</li></ul></li>
+    <li><h3>Software Developer, Kahnputers India</h3><div class="when">Oct 2018 to Jul 2019</div><ul>
+      <li>Built e-commerce applications with React, Web API, SQL and AWS backend services, plus Windows Services for order and inventory sync.</li></ul></li>
+    <li><h3>Software Developer, Scorg Technology</h3><div class="when">May 2018 to Oct 2018</div><ul>
+      <li>Built Hospital Management System modules with ASP.NET, SQL and Crystal Reports, and reusable .NET Core APIs.</li></ul></li>
+    <li><h3>Software Developer, Experis IT</h3><div class="when">Oct 2017 to May 2018</div><ul>
+      <li>Developed enterprise apps with ASP.NET MVC, WPF, SQL Server and Azure, with analytics and reporting features.</li></ul></li>
+    <li><h3>Software Engineer, Textronics Design System</h3><div class="when">Jun 2015 to Oct 2017</div><ul>
+      <li>Built a Virtual Dressing Room using WPF, Kinect SDK and image tracking, and a DesignArchive system for inventory and orders.</li></ul></li>
+  </ul>
+</div></section>
+
+<section id="skills"><div class="wrap rv">
+  <h2>Skills</h2>
+  <div class="skills">
+    <div class="card"><h3>Backend</h3><div class="chips"><span>C#</span><span>.NET Core</span><span>WPF</span><span>ASP.NET MVC</span><span>Java</span><span>Spring Boot</span><span>Microservices</span><span>REST APIs</span></div></div>
+    <div class="card"><h3>Frontend</h3><div class="chips"><span>React.js</span><span>Next.js</span><span>TypeScript</span><span>JavaScript</span><span>Material UI</span><span>Tailwind CSS</span></div></div>
+    <div class="card"><h3>Cloud and DevOps</h3><div class="chips"><span>AWS</span><span>Docker</span><span>Kubernetes</span><span>GitHub Actions</span><span>Azure DevOps</span><span>Terraform</span></div></div>
+    <div class="card"><h3>Data engineering</h3><div class="chips"><span>Databricks</span><span>PySpark</span><span>Delta Lake</span><span>ETL/ELT</span><span>Parquet</span></div></div>
+    <div class="card"><h3>Databases</h3><div class="chips"><span>Oracle</span><span>SQL Server</span><span>PostgreSQL</span><span>MySQL</span><span>DB2</span></div></div>
+    <div class="card"><h3>Testing</h3><div class="chips"><span>JUnit5</span><span>Mockito</span><span>Testcontainers</span><span>Jest</span><span>RTL</span><span>Cypress</span></div></div>
+  </div>
+</div></section>
+
+<section><div class="wrap two rv">
+  <div class="card"><h3>Certification</h3><p>AWS Certified Solutions Architect, Associate (SAA-C03)</p></div>
+  <div class="card"><h3>Education</h3><p>B.E. in Computer Science, Pune University (2015)</p></div>
+</div></section>
+
+<section id="workshop"><div class="wrap rv"><div class="promo">
+  <h2>Learn React and AWS with me</h2>
+  <p>A 4-weekend live workshop: build one full stack React and Spring Boot app, then deploy it with Terraform and GitHub Actions on AWS free-tier services.</p>
+  <div class="btns"><a class="btn p" href="workshop/">See the workshop</a></div>
+</div></div></section>
+
+<section id="contact"><div class="wrap rv">
+  <h2>Contact</h2>
+  <div class="btns" style="margin-top:0"><a class="btn p" href="mailto:sandeep.shinde360@gmail.com">sandeep.shinde360@gmail.com</a><a class="btn" href="https://github.com/sandeep008">github.com/sandeep008</a></div>
+</div></section>
+
+<footer><div class="wrap">&copy; 2026 Sandeep Shinde. Pune, Maharashtra.</div></footer>
+
+<script>
+const reduce=matchMedia("(prefers-reduced-motion:reduce)").matches;
+const roles=["Lead Software Engineer","Full Stack Developer","AWS Solutions Architect","Workshop Instructor"],el=document.getElementById("role");
+if(reduce){el.textContent=roles[0]}else{(async()=>{const w=ms=>new Promise(r=>setTimeout(r,ms));let i=0;while(true){const t=roles[i%roles.length];for(let c=1;c<=t.length;c++){el.textContent=t.slice(0,c);await w(70)}await w(1600);for(let c=t.length;c>=0;c--){el.textContent=t.slice(0,c);await w(35)}i++}})()}
+document.querySelectorAll(".card").forEach(c=>c.addEventListener("pointermove",e=>{const r=c.getBoundingClientRect();c.style.setProperty("--mx",e.clientX-r.left+"px");c.style.setProperty("--my",e.clientY-r.top+"px")}));
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add("in");io.unobserve(e.target)}}),{threshold:.1});
+document.querySelectorAll(".rv").forEach(x=>io.observe(x));
+</script>
+</body>
+</html>
